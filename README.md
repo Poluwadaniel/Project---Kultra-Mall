@@ -20,13 +20,17 @@ The Analysis will be split into 2 different case scenerio as follows
 **Case Scenario 1**
 
 1. Which product category had the highest sales?
+
 The Product category with the highest sales is **Technology** with a total sales of **8901.05**
 
-2. What are the Top 3 and Bottom 3 regions in terms of sales?
-   Top 3               Bottom 3
-   Atlantic            West
-   Quebec              West
-   Prane               Yukon
+3. What are the Top 3 and Bottom 3 regions in terms of sales?
+
+| Top 3       |    Bottom 3  |
+| ----------- | ------------ |
+| Atlantic    |    West      |
+| Quebec      |    West      |
+| Prane       |    Yukon     |
+
 5. What were the total sales of appliances in Ontario?
 6. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 7. KMS incurred the most shipping cost using which shipping method?
