@@ -21,17 +21,29 @@ The Analysis will be split into 2 different case scenerio as follows
 
 1. Which product category had the highest sales?
 
-The Product category with the highest sales is **Technology** with a total sales of **8901.05**
+  The Product category with the highest sales is **Technology** with a total sales of **8901.05**
 
-3. What are the Top 3 and Bottom 3 regions in terms of sales?
+2. What are the Top 3 and Bottom 3 regions in terms of sales?
 
-| Top 3       |    Bottom 3  |
-| ----------- | ------------ |
-| Atlantic    |    West      |
-| Quebec      |    West      |
-| Prane       |    Yukon     |
+  | Top 3       |    Bottom 3  |
+  | ----------- | ------------ |
+  | Atlantic    |    West      |
+  | Quebec      |    West      |
+  | Prane       |    Yukon     |
 
-5. What were the total sales of appliances in Ontario?
-6. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
-7. KMS incurred the most shipping cost using which shipping method?
+3. What were the total sales of appliances in Ontario?
+
+  The total Sales of appliance in Ontario was **_3023386.56_**
+  
+4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+
+  There are quite ways to get the bottom 10 customers to buy more, since they are mostly buying office supplies
+  - We could train the employee on how to upsell other meaningful office supplies to them
+  - Display more office supply item that could go with what they come to buy from us
+  - Run a survey to find out other things they might like to buy
+  - Give coupons or discounts depending on how much more item they buy from us
+  
+5. KMS incurred the most shipping cost using which shipping method?
+
+   The most shipping method cost us most is the Delievry Truck with a total expenses of **_51288.34_**
 
