@@ -21,7 +21,10 @@ The Analysis will be split into 2 different case scenerio as follows
 
 1. Which product category had the highest sales?
 
-  The Product category with the highest sales is **Technology** with a total sales of **29884.60**
+select top 1 * from (
+		select Product_category, sales
+		from kms) as Profit
+  order by Sales desc
 
 2. What are the Top 3 and Bottom 3 regions in terms of sales?
 
@@ -61,9 +64,16 @@ Here are the top 5 Customer and their favorite products
 |  4  | Erica Bern	      |  57936.13	      |  Chromcraft Bull-Nose Wood 48" x 96" Rectangular Conference Tables	|  24794.10     |
 |  5  | Karen Carlisle	  |  56810.08	      |  Canon Image Class D660 Copier	                                    |  29399.51     | 
 
-8. Which small business customer had the highest sales?
-9. Which Corporate Customer placed the most number of orders in 2009 – 2012?
-10. Which consumer customer was the most profi table one?
-11. Which customer returned items, and what segment do they belong to?
-12. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
+7. Which small business customer had the highest sales?
+    Denise Kane with a total of 13 orders
+   
+8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
+   There are two Corporate customer with the highest order, **_Adam Hart_** and **_Roy Skania_** with 18 Orders
+   
+9. Which consumer customer was the most profi table one?
+    Dean Percer with a total profit of 9605.05
+    
+10. Which customer returned items, and what segment do they belong to?
+  
+11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
 
